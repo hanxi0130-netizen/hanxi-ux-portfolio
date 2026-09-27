@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SCALE — Han Xi's data-informed self-care UX research and physical interface case study." />
+    <meta name="theme-color" content="#ffffff" />
+    <title>SCALE — Han Xi</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="case-page scale-page">
+    <div class="page-progress" aria-hidden="true"><span data-progress></span></div>
+    <header class="site-header">
+      <a class="wordmark" href="./index.html">HAN XI</a>
+      <nav aria-label="Primary navigation">
+        <a href="./index.html#work">Work</a>
+        <a href="./index.html#about">About</a>
+        <a href="mailto:hanxi0130@snu.ac.kr">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="case-masthead section-pad">
+        <div class="case-kicker reveal"><span>01 / SCALE</span><span>Graduate research · 2025—2026</span></div>
+        <div class="case-title-grid">
+          <h1 class="reveal">A soft interface<br />for self-care<br /><em>in public.</em></h1>
+          <p class="case-standfirst reveal">SCALE explores how a treatment aid can reduce hand contact, protect irritated skin and feel socially acceptable in everyday situations.</p>
+        </div>
+        <figure class="case-hero media-frame reveal" data-enlarge data-caption="SCALE prototypes — three forms for different body areas">
+          <img src="./media/scale-hero-clear.png" alt="Pastel silicone self-care prototypes arranged on clear acrylic plates" />
+        </figure>
+      </header>
+
+      <section class="case-overview section-pad reveal" aria-label="Project overview">
+        <dl class="overview-meta">
+          <div><dt>Role</dt><dd>Independent researcher and designer</dd></div>
+          <div><dt>Methods</dt><dd>Semi-structured interviews, open coding, journey mapping, Kano, Better–Worse</dd></div>
+          <div><dt>Output</dt><dd>30 UX requirements, three form prototypes, use scenarios</dd></div>
+          <div><dt>Scope</dt><dd>Experience and form exploration; not a clinical device study</dd></div>
+        </dl>
+        <p class="overview-statement">The project began with a simple contradiction: people need to respond quickly to discomfort, yet the act of applying treatment can feel messy, visible and disruptive.</p>
+      </section>
+
+      <section class="case-section section-pad" aria-labelledby="scale-context">
+        <div class="section-index"><span>01</span><span>Context</span></div>
+        <div class="section-main">
+          <h2 id="scale-context" class="reveal">Why treatment is delayed in public settings.</h2>
+          <div class="copy-columns reveal">
+            <p>Literature and user accounts pointed to recurring friction around hand contamination, exposing the affected area, residue after application and the attention of people nearby.</p>
+            <p>I reframed the brief from “a better applicator” to “a discreet layer that helps treatment fit into the flow of everyday life.”</p>
+          </div>
+          <div class="photo-pair reveal">
+            <figure class="media-frame" data-enlarge data-caption="Symptoms can arrive during an ordinary commute">
+              <img loading="lazy" src="./media/scale-context-itch.jpg" alt="Person touching irritated skin on an arm in a transit setting" />
+            </figure>
+            <figure class="media-frame portrait" data-enlarge data-caption="An early prototype worn on the forearm">
+              <img loading="lazy" src="./media/scale-context-wear.jpg" alt="Soft translucent patch placed on a forearm" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section research-field section-pad" aria-labelledby="scale-research">
+        <div class="section-index"><span>02</span><span>Research</span></div>
+        <div class="section-main">
+          <h2 id="scale-research" class="reveal">Interviews, open coding and Kano prioritization.</h2>
+          <div class="research-numbers reveal">
+            <div><strong>23</strong><span>semi-structured interviews</span></div>
+            <div><strong>30</strong><span>experience requirements after open coding</span></div>
+            <div><strong>367</strong><span>valid responses from 400 Kano surveys</span></div>
+          </div>
+          <div class="research-sequence reveal">
+            <article><span>Listen</span><h3>Behavior in context</h3><p>Participants described when they apply, delay or avoid treatment and what makes the action uncomfortable.</p></article>
+            <article><span>Structure</span><h3>Open coding</h3><p>Interview material was grouped into thirty experience requirements spanning safety, usability, feedback and emotional acceptance.</p></article>
+            <article><span>Prioritize</span><h3>Kano + Better–Worse</h3><p>A quantitative survey clarified which requirements most strongly shaped confidence and continued use.</p></article>
+          </div>
+          <div class="kano-method reveal" aria-label="Kano Better and Worse coefficient formulas">
+            <div class="kano-method-copy">
+              <p class="micro">Coefficient calculation</p>
+              <h3>Turning Kano responses into comparable priorities.</h3>
+              <p>The Better coefficient estimates the potential gain in satisfaction when a need is fulfilled. The negative Worse coefficient indicates the risk of dissatisfaction when it is unmet.</p>
+            </div>
+            <div class="kano-formulas">
+              <div class="formula-row">
+                <span class="formula-name">Better<sub>i</sub></span>
+                <span class="formula-equals">=</span>
+                <span class="fraction"><span>A<sub>i</sub> + O<sub>i</sub></span><span>A<sub>i</sub> + O<sub>i</sub> + M<sub>i</sub> + I<sub>i</sub></span></span>
+              </div>
+              <div class="formula-row">
+                <span class="formula-name">Worse<sub>i</sub></span>
+                <span class="formula-equals">= −</span>
+                <span class="fraction"><span>O<sub>i</sub> + M<sub>i</sub></span><span>A<sub>i</sub> + O<sub>i</sub> + M<sub>i</sub> + I<sub>i</sub></span></span>
+              </div>
+              <p class="formula-legend"><span>A · Attractive</span><span>O · One-dimensional</span><span>M · Must-be</span><span>I · Indifferent</span></p>
+            </div>
+          </div>
+          <div class="diagram-pair reveal">
+            <figure class="media-frame" data-enlarge data-caption="Market and product mapping used during the Discover phase">
+              <img loading="lazy" src="./media/scale-market-map.jpg" alt="Research mapping of existing self-care products and usage contexts" />
+              <figcaption>Discover · product and context mapping</figcaption>
+            </figure>
+            <figure class="media-frame" data-enlarge data-caption="User journey from symptom onset to delayed treatment">
+              <img loading="lazy" src="./media/scale-journey-map.jpg" alt="Journey map showing symptom, hesitation, delay and continued anxiety" />
+              <figcaption>Define · the point where hesitation becomes delay</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section section-pad" aria-labelledby="scale-priority">
+        <div class="section-index"><span>03</span><span>Priority</span></div>
+        <div class="section-main">
+          <h2 id="scale-priority" class="reveal">Safety and treatment confidence ranked highest.</h2>
+          <p class="section-lead reveal">The composite priority scores moved the design away from appearance-led decisions. Safety, confidence and simple operation became the first filters for every concept.</p>
+          <div class="priority-table reveal" aria-label="Highest-priority experience requirements">
+            <div><span>01</span><strong>Safety & reliability</strong><i style="--value:100%"></i><b>0.76</b></div>
+            <div><span>02</span><strong>Trust in treatment</strong><i style="--value:96%"></i><b>0.73</b></div>
+            <div><span>03</span><strong>Simple operation</strong><i style="--value:93%"></i><b>0.71</b></div>
+            <div><span>04</span><strong>Clear feedback</strong><i style="--value:92%"></i><b>0.70</b></div>
+            <div><span>05</span><strong>Ease of understanding</strong><i style="--value:92%"></i><b>0.70</b></div>
+          </div>
+          <div class="evidence-decision reveal">
+            <div><span>Evidence</span><span>Design decision</span></div>
+            <p><strong>Hand contamination</strong><span>Separate the treatment area from the touch area.</span></p>
+            <p><strong>Social hesitation</strong><span>Use a soft, non-clinical visual language.</span></p>
+            <p><strong>Movement and body curvature</strong><span>Develop three structures instead of forcing one universal form.</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section section-pad" aria-labelledby="scale-translation">
+        <div class="section-index"><span>04</span><span>Translation</span></div>
+        <div class="section-main">
+          <h2 id="scale-translation" class="reveal">One visual language, three body contexts.</h2>
+          <p class="section-lead reveal">Protective shells, thin wing membranes and segmented bodies offered structural references for coverage, flexibility and movement. The biological cues were abstracted rather than copied literally.</p>
+          <div class="module-list reveal">
+            <article><span>A</span><h3>Shield</h3><p>Broad curved coverage for the back, chest and thigh.</p><img loading="lazy" src="./media/scale-cad-shield.jpg" alt="CAD views of the broad Shield form" /></article>
+            <article><span>B</span><h3>Joint Scale</h3><p>A segmented radial structure for shoulders, elbows and knees.</p><img loading="lazy" src="./media/scale-cad-joint.jpg" alt="CAD views of the radial Joint Scale form" /></article>
+            <article><span>C</span><h3>Flat Patch</h3><p>A compact form for the jawline and smaller body folds.</p><img loading="lazy" src="./media/scale-cad-flat.jpg" alt="CAD views of the compact Flat Patch form" /></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section prototype-field section-pad" aria-labelledby="scale-prototype">
+        <div class="section-index"><span>05</span><span>Prototype</span></div>
+        <div class="section-main">
+          <h2 id="scale-prototype" class="reveal">Thermochromic feedback without a digital display.</h2>
+          <div class="copy-columns reveal">
+            <p>Low-hardness Ecoflex silicone supported the exploratory goal of close contact and movement. Moulds were produced for three forms and tested through physical making.</p>
+            <p>Thermochromic pigment activated around 31°C was explored as gentle, non-diagnostic feedback. The study did not validate clinical efficacy, biocompatibility or long-term hygiene.</p>
+          </div>
+          <div class="material-grid reveal">
+            <figure class="media-frame" data-enlarge data-caption="Thermochromic color tests"><img loading="lazy" src="./media/scale-color-tests.jpg" alt="Pastel thermochromic color samples" /><figcaption>Color response study</figcaption></figure>
+            <figure class="media-frame" data-enlarge data-caption="Prototype moulds"><img loading="lazy" src="./media/scale-molds.jpg" alt="White moulds for three prototype forms" /><figcaption>Form moulds</figcaption></figure>
+            <figure class="media-frame" data-enlarge data-caption="Silicone swatches"><img loading="lazy" src="./media/scale-swatches.jpg" alt="Pastel silicone material swatches" /><figcaption>Material trials</figcaption></figure>
+          </div>
+          <figure class="full-bleed media-frame reveal" data-enlarge data-caption="Final SCALE prototype family">
+            <img loading="lazy" src="./media/scale-still-angle.jpg" alt="SCALE prototype family photographed from above" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="case-section section-pad" aria-labelledby="scale-scenario">
+        <div class="section-index"><span>06</span><span>Scenario</span></div>
+        <div class="section-main">
+          <h2 id="scale-scenario" class="reveal">Prepared before leaving. Applied when needed.</h2>
+          <p class="section-lead reveal">A six-step scenario examined the flow from preparing and carrying the patch to applying it during transit and storing it after use.</p>
+          <div class="scenario-grid reveal">
+            <figure><img loading="lazy" src="./media/scale-scenario-prepare.jpg" alt="Preparing a self-care patch" /><figcaption><span>01</span>Prepare</figcaption></figure>
+            <figure><img loading="lazy" src="./media/scale-scenario-pack.jpg" alt="Putting a prepared patch into a bag" /><figcaption><span>02</span>Carry</figcaption></figure>
+            <figure><img loading="lazy" src="./media/scale-scenario-gate-a.jpg" alt="Using a patch at a subway gate" /><figcaption><span>03</span>Apply</figcaption></figure>
+            <figure><img loading="lazy" src="./media/scale-scenario-gate-b.jpg" alt="Soft patch visible while tapping a transit card" /><figcaption><span>04</span>Continue</figcaption></figure>
+            <figure><img loading="lazy" src="./media/scale-scenario-store.jpg" alt="Patch in a retail checkout situation" /><figcaption><span>05</span>Live with it</figcaption></figure>
+            <figure><img loading="lazy" src="./media/scale-body-hand.jpg" alt="Joint Scale prototype worn on a hand" /><figcaption><span>06</span>Review</figcaption></figure>
+          </div>
+          <div class="reflection reveal">
+            <p class="micro">Reflection</p>
+            <h3>The research produced a defensible direction, not a finished medical claim.</h3>
+            <p>The next stage would require controlled usability testing, skin-contact safety verification, cleaning studies and collaboration with clinical specialists.</p>
+          </div>
+        </div>
+      </section>
+
+      <nav class="next-case section-pad" aria-label="Next project">
+        <span>Next case</span>
+        <a href="./tetris.html"><strong>TETRIS</strong><em>System + interface concept</em><b>↗</b></a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <a href="./index.html">← Index</a>
+      <a href="mailto:hanxi0130@snu.ac.kr">hanxi0130@snu.ac.kr ↗</a>
+      <span>© 2026 Han Xi</span>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox>
+      <button type="button" data-lightbox-close aria-label="Close image">Close</button>
+      <img data-lightbox-image alt="" />
+      <p data-lightbox-caption></p>
+    </dialog>
+  </body>
+</html>
