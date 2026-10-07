@@ -4,8 +4,8 @@ An English-language portfolio featuring product design, UX research, data analys
 
 ## Portfolio
 
-- Current website: https://hanxi-ux.vercel.app
-- GitHub Pages: enabled through the workflow in `.github/workflows/pages.yml`
+- GitHub Pages: https://hanxi0130-netizen.github.io/hanxi-ux-portfolio/
+- Vercel mirror: https://hanxi-ux.vercel.app
 
 ## Structure
 
